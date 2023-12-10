@@ -31,6 +31,8 @@ input,button,textarea{
 :root{
     --green: #009379;
     --pale: #E5F4F2;
+    --Onboarding-background-grey: #2D2D2D;
+    --Blue: #36F;
 }
 
 /* poppins 600, 700
@@ -127,7 +129,7 @@ body{
     background-color: #fff;
     border-radius: 7px;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .contact{
         display: none;
     }
@@ -143,6 +145,101 @@ body{
         margin: 0 auto;
     }
     .button-1{
+        display: none;
+    }
+}
+/* Hero */
+.hero_row {
+    display: flex;
+    padding: 120px 65px;
+}
+.hero_box-1 {
+    margin-top: 21px;
+    margin-right: auto;
+    max-width: 648px;
+}
+.hero_title {
+    color: var(--Onboarding-background-grey, #2D2D2D);
+    font-size: 67px;
+    font-weight: 700;
+    line-height: 87.1px;
+    letter-spacing: -1.675px;
+}
+.hero_text {
+    margin-top: 20px;
+
+    color: var(--Onboarding-background-grey, #2D2D2D);
+    font-family: Mulish;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31.5px; 
+}
+.hero_span{
+    color: var(--Blue, #36F);
+    font-family: Mulish;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31.5px; 
+}
+.hero_buttons {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 40px;
+}
+.hero_box-img {
+    max-width: 450px;
+    max-height: 450px;
+}
+.hero_img {
+    width: 100%;
+}
+@media screen and (max-width: 1400px) {
+    .hero_row {
+        flex-direction: column;
+        align-items: center;
+        padding: 100px 32px;
+    }
+    .hero_box-1 {
+        margin: 0 auto;
+    }
+    .hero_buttons {
+        margin-top: 30px;
+        margin: 30px auto 0;
+    }
+    .hero_title {
+        text-align: center;
+    }
+    .hero_text {
+        text-align: center;
+    }
+    .hero_box-2 {
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 600px){
+    .hero_row {
+        padding: 60px 30px;
+    }
+    .hero_title {
+        font-size: 38px;
+        line-height: 49.4px;
+        letter-spacing: -0.76px;
+    }
+    .hero_text {
+        margin-top: 20px;
+
+        font-size: 16px;
+        line-height: 24px ; 
+    }
+    .hero_span{
+        font-size: 16px;
+        line-height: 24px; 
+    }
+    .hero_buttons {
+        max-width: 100%;
+        justify-content: center;  
+    }
+    .button-3{
         display: none;
     }
 }
