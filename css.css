@@ -1,0 +1,148 @@
+*,*::before, *::after{
+    box-sizing: border-box;
+}
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+img{
+    display: block;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+button::-moz-focus-inner{
+    padding: 0;border: 0;
+}
+ul li{
+    list-style: none;
+}
+input,button,textarea{
+    font-family: inherit;
+}
+:root{
+    --green: #009379;
+    --pale: #E5F4F2;
+}
+
+/* poppins 600, 700
+mulish 400, 700 */
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.container_mein {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+/* Navbar */
+.nav_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo_img {
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+}
+.logo_text {
+    display: flex;
+    align-items: center;
+}
+.logo_p {
+    color: #2D2D2D;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 27.3px;
+}
+.logo_span {
+    color: #2D2D2D;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 27.3px;
+}
+.nav_list {
+    display: flex;
+    align-items: center;
+}
+.contact{
+    margin-right: 50px;
+
+    color: var(--green);
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    font-size: 16px;
+    line-height: 24px;
+}
+.contact:hover{
+   color: #035747;
+}
+.block_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 442px;
+    width: 100vh;
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 50px;
+    border-radius: 20px;
+    background: var(--pale);
+    cursor: pointer;
+
+    color: var(--green);
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    font-size: 16px;
+    line-height: 24px;
+    transition: all 0.3s ease-in-out;
+}
+.button:hover{
+    background-color: var(--green);
+    color: #fff;
+}
+.img_button {
+    margin-right: 7px;
+    background-color: #fff;
+    border-radius: 7px;
+}
+@media screen and (max-width: 900px) {
+    .contact{
+        display: none;
+    }
+    .block_buttons {
+        width: 100%;
+    }
+    .button-2{
+        display: none;
+    }
+}
+@media screen and (max-width: 600px){
+    .logo {
+        margin: 0 auto;
+    }
+    .button-1{
+        display: none;
+    }
+}
