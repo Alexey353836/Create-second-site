@@ -47,6 +47,11 @@ body{
     max-width: 1280px;
     margin: 0 auto;
 }
+.container_mein-new{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 55px;
+}
 /* Navbar */
 .nav_row {
     display: flex;
@@ -241,5 +246,39 @@ body{
     }
     .button-3{
         display: none;
+    }
+}
+/* Logo bar */
+.logobar_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 120px 55px; 
+}
+.logobar_img {
+    width: 90px;
+}
+
+@media screen and (max-width: 1000px){
+    .logobar_row {
+        margin: 80px 42px;
+    }
+    .logobar_img {
+        width: 70px;
+    }
+}
+@media screen and (max-width: 800px){
+    .logobar_row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap:20px;
+    
+        background-color:aqua;
+        margin: 46px 30px; 
+    }
+    .logobar_img {
+        margin: 0 auto;
     }
 }
