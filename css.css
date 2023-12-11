@@ -275,7 +275,6 @@ body{
         grid-template-rows: repeat(2, 1fr);
         gap:20px;
     
-        background-color:aqua;
         margin: 46px 30px; 
     }
     .logobar_img {
