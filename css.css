@@ -283,6 +283,7 @@ body{
 /* Features */
 .features_main-text {
     margin: 120px auto 0px;
+    padding: 0px 30px;
 }
 .features_title {
     color: #000;
