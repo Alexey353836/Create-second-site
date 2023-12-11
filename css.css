@@ -259,7 +259,6 @@ body{
 .logobar_img {
     width: 90px;
 }
-
 @media screen and (max-width: 1000px){
     .logobar_row {
         margin: 80px 42px;
@@ -273,7 +272,8 @@ body{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        gap:20px;
+        row-gap: 50px;
+        column-gap: 20px;
     
         margin: 46px 30px; 
     }
