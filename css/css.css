@@ -45,6 +45,7 @@ body{
 }
 .container_mein {
     max-width: 1280px;
+    min-width: 300px;
     margin: 0 auto;
     /* background-color: #36F; */
 }
@@ -322,5 +323,50 @@ body{
 
     margin-top: 5px;
 }
+
+/* Landing */
+.landing_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 120px 55px;
+}
+.lending_box-left {
+    max-width: 540px;
+}
+.lending_img {
+    width: 100%;
+}
+.lending_box-right {
+    max-width: 560px;
+    margin-left: 60px;
+}
+.lending_title {
+    color: var(--Onboarding-background-grey, #2D2D2D);
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: -1px;
+}
+.lending_text {
+    color: var(--Onboarding-background-grey, #2D2D2D);
+    font-family: Mulish;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31.5px;
+
+    margin-top: 20px;
+}
+.landing_button {
+    margin-top: 40px;
+}
+.arrowleft{
+    background-color: transparent;
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+
 
 
