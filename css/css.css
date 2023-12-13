@@ -135,6 +135,9 @@ body{
 .button:hover{
     background-color: var(--greenFerst);
 }
+.button:active{
+    scale: 1.1;
+}
 .img_button {
     margin-right: 7px;
     background-color: #fff;
@@ -454,6 +457,114 @@ body{
     height: 24px;
     margin: 0 2.5px;
 }
+
+/* Plan */
+.plan_container {
+    margin: 120px 55px;
+}
+.plan_title {
+    color: #000;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 49.4px;
+    letter-spacing: -0.76px;
+}
+.plan_text {
+    color: #2D2D2D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    margin-top: 20px;
+}
+.plan_cards {
+    margin-top: 60px;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   column-gap: 30px;
+}
+.plan_card {
+    padding: 40px 30px;
+    max-width: 370px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.plan_card:hover{
+    background-color: var(--green);
+}
+.plan_card-title {
+    color: #2D2D2D;
+    font-family: Mulish;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31.5px;
+}
+.plan_money {
+    color: #2D2D2D;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: -1px;
+    margin-top: 6px;
+}
+.plan_card-span {
+    color: #3B3B3B;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25.6px;
+    margin-left: 12px;
+}
+.plan_card-text {
+    color: #2D2D2D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    margin-top: 11px;
+}
+.plan_box-text {
+    margin-top: 24px;
+}
+.plan_box{
+    display: flex;
+    align-items: center;
+}
+.plan_img-check {
+    margin-right: 12px;
+    align-items: center;
+    background: #E5F4F2;
+    border-radius: 50%;
+}
+.check-text {
+    color: #2D2D2D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.8px;
+}
+.check-text :last-child{
+    margin-bottom: 0;
+}
+.plan_button {
+    width: 100%;
+    border-radius: 20px;
+    background: #E5F4F2;
+    color: #009379;
+    margin-top: 30px;
+}
+.plan_button:hover{
+    background: #E5F4F2;
+}
+.arrowleft-green{
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+}
+
+
 
 
 
