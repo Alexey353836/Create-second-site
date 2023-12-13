@@ -247,6 +247,12 @@
         height: 100%;
         max-width: 310px;
     }
+    .testimonials_card-text-2 {
+        text-align: left;
+    }
+    .testimonials_stars {
+        justify-content: left;
+    }
 }
 @media screen and (max-width: 800px) {
     .testimonials_container {
@@ -270,5 +276,11 @@
         justify-content: space-between;
         height: 100%;
         max-width: 100%;
+    }
+    .testimonials_card-text-2 {
+        text-align: center;
+    }
+    .testimonials_stars {
+        justify-content: center;
     }
 }
