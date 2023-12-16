@@ -463,3 +463,8 @@
         margin-bottom: 20px;
     }
 }
+@media screen and (max-width: 600px){
+    .last_container {
+        padding: 24px 20px;
+    }
+}
